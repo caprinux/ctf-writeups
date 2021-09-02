@@ -6,8 +6,6 @@ Also checkout my [blog](https://caprinux.github.io/index)!
 
 Much more to come soon!!
 
-<br>
-
 ## Overview
 | CTF | Link |
 |-----|------|
