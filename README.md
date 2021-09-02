@@ -9,7 +9,7 @@ Much more to come soon!!
 ## Overview
 | CTF | Link |
 |-----|------|
-| LagAndCrash | [March 2021](LagAndCrash 2021/README.md)
-| Cyberthon | [June 2021](Cyberthon 2021/README.md)
+| LagAndCrash | [March 2021](LagAndCrash\ 2021/README.md)
+| Cyberthon | [June 2021](Cyberthon\ 2021/README.md)
 
 
