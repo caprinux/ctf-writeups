@@ -22,7 +22,7 @@ _totally not me choking throughout the ctf_
 ## Cyberthon Finals
 ---
 
-- **[Apcafe](https://github.com/caprinux/Cyberthon-2021/tree/main/Finals/Apcafe)** 
+- **[Apcafe](Finals/Apcafe)** 
 - **[Placeholder](https://github.com/caprinux/Cyberthon-2021/tree/main/Finals/Placeholder)**
 - **[APCDB](https://github.com/caprinux/Cyberthon-2021/tree/main/Finals/APCDB)**
 - **[Market Research](https://github.com/caprinux/Cyberthon-2021/tree/main/Finals/Market%20Research)**
