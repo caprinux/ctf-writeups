@@ -23,55 +23,53 @@ _totally not me choking throughout the ctf_
 ---
 
 - **[Apcafe](Finals/Apcafe)** 
-- **[Placeholder](https://github.com/caprinux/Cyberthon-2021/tree/main/Finals/Placeholder)**
-- **[APCDB](https://github.com/caprinux/Cyberthon-2021/tree/main/Finals/APCDB)**
-- **[Market Research](https://github.com/caprinux/Cyberthon-2021/tree/main/Finals/Market%20Research)**
+- **[Placeholder](Finals/Placeholder)**
+- **[APCDB](Finals/APCDB)**
+- **[Market Research](Finals/Market%20Research)**
 
 
 
 ## Cyberthon Livestream Training
 ---
 
-- **[Shell (Pwn: Basic ret2win)](https://github.com/caprinux/Cyberthon-Training/tree/main/Livestream%20Training/shell)** 
-- **[Not So Silent (Wireshark)](https://github.com/caprinux/Cyberthon-Training/tree/main/Livestream%20Training/Not%20So%20Silent)**
+- **[Shell (Pwn: Basic ret2win)](Livestream%20Training/shell)** 
+- **[Not So Silent (Wireshark)](Livestream%20Training/Not%20So%20Silent)**
 
 ## Cyberthon 1 Month Self-Directed Training
 ---
 
 ### Pwn
 
-- **[PowerLevelElite](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Pwn/PowerLevelElite)** integer
-- **[Adminitize](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Pwn/Adminitize)** ret2win
-- **[Callmemaybe](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Pwn/Call%20Me%20Maybe)** basic rop
-- **[FIlelister](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Pwn/Filelister)** format string
-- **[nosystem](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Pwn/NoSystem)** ret2libc + leak libc
+- **[PowerLevelElite](Self-Directed%20Learning/Pwn/PowerLevelElite)** integer
+- **[Adminitize](Self-Directed%20Learning/Pwn/Adminitize)** ret2win
+- **[Callmemaybe](Self-Directed%20Learning/Pwn/Call%20Me%20Maybe)** basic rop
+- **[FIlelister](Self-Directed%20Learning/Pwn/Filelister)** format string
+- **[nosystem](Self-Directed%20Learning/Pwn/NoSystem)** ret2libc + leak libc
 
 ### Forensics
 - **~~Stegosaurus~~** [image](https://imgur.com/gR2DgQD) _sorry i got lazy and js used zsteg_
-- **[Being Watched](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Forensics/Being%20Watched)** pcap
-- **[Rendezvous](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Forensics/Rendezvous)** pcap
-- **[Recollections](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Forensics/Recollections)** memdump forensics
-- **~~Hyperbolic~~** [repair pdf](https://www.ilovepdf.com/repair-pdf) _sorry i got lazy and just google pdf repair dont kill me nik_ 😭
+- **[Being Watched](Self-Directed%20Learning/Forensics/Being%20Watched)** pcap
+- **[Rendezvous](Self-Directed%20Learning/Forensics/Rendezvous)** pcap
+- **[Recollections](Self-Directed%20Learning/Forensics/Recollections)** memdump forensics
+- **~~Hyperbolic~~** [repair pdf](https://www.ilovepdf.com/repair-pdf) _weee i just used an online converted_ 😭
 
 ### Crypto
-- **[Byte Rotator](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Crypto/Byte%20Rotator)** scripting
-- **[XorMillion](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Crypto/Xor%20Million)** xor
-- **[Never Gonna Give](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Crypto/Never%20Gonna%20Give)** otp key reuse
-- **[Really Secure Algorithm](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Crypto/Really%20Secure%20Algorithm)** rsa
-- **[Hashcryption](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Crypto/Hashcryption)** aes_ecb + mmd5
+- **[Byte Rotator](Self-Directed%20Learning/Crypto/Byte%20Rotator)** scripting
+- **[XorMillion](Self-Directed%20Learning/Crypto/Xor%20Million)** xor
+- **[Never Gonna Give](Self-Directed%20Learning/Crypto/Never%20Gonna%20Give)** otp key reuse
+- **[Really Secure Algorithm](Self-Directed%20Learning/Crypto/Really%20Secure%20Algorithm)** rsa
+- **[Hashcryption](Self-Directed%20Learning/Crypto/Hashcryption)** aes_ecb + mmd5
 
 ### Reverse Engineering
-- **[NumberGame](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/RE/Number%20Game)** reversing python
-- **[Super Secure Sipher](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/RE/Super%20Secure%20Sipher)** reversing java
-- **[Master Rev](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/RE/Master%20Rev)** reversing assembly
-- **[Beep Boop](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/RE/Beepboop)** dynamic analysis
-- **[Prove Your Worth](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/RE/Prove%20Your%20Worth)** static analysis 
+- **[NumberGame](Self-Directed%20Learning/RE/Number%20Game)** reversing python
+- **[Super Secure Sipher](Self-Directed%20Learning/RE/Super%20Secure%20Sipher)** reversing java
+- **[Master Rev](Self-Directed%20Learning/RE/Master%20Rev)** reversing assembly
+- **[Beep Boop](Self-Directed%20Learning/RE/Beepboop)** dynamic analysis
+- **[Prove Your Worth](Self-Directed%20Learning/RE/Prove%20Your%20Worth)** static analysis 
 
 ### Web
-- **[Flag Poster](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Web/Flag%20Poster)** curl
-- **[The Day](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Web/The%20Day)** cookies
-- **[No Leek](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Web/No%20Leek)** sqli
-- **[Cannot Leek](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Web/Cannot%20Leek)** php strcmp
-- **[Browser ID](https://github.com/caprinux/Cyberthon-2021-Training/tree/main/Self-Directed%20Learning/Web/BrowserID)** ssti
-
-
+- **[Flag Poster](Self-Directed%20Learning/Web/Flag%20Poster)** curl
+- **[The Day](Self-Directed%20Learning/Web/The%20Day)** cookies
+- **[No Leek](Self-Directed%20Learning/Web/No%20Leek)** sqli
+- **[Cannot Leek](Self-Directed%20Learning/Web/Cannot%20Leek)** php strcmp
+- **[Browser ID](Self-Directed%20Learning/Web/BrowserID)** ssti
