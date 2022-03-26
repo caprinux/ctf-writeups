@@ -7,9 +7,9 @@ Also checkout my [blog](https://caprinux.github.io/index)!
 Much more to come soon!!
 
 ## Overview
-| CTF | Link |
-|-----|------|
-| LagAndCrash | [March 2021](LagAndCrash%202021/README.md)
-| Cyberthon | [June 2021](Cyberthon%202021/README.md)
-
+| CTF             | Link                                       |
+| --------------- | ------------------------------------------ |
+| LagAndCrash     | [March 2021](LagAndCrash%202021/README.md) |
+| Cyberthon       | [June 2021](Cyberthon%202021/README.md)    |
+| WhiteHacks 2022 | [March 2022](README%201.md)                                           |
 
