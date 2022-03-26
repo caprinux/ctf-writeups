@@ -215,7 +215,7 @@ Found it! Now we can change the 0x07E6 right above these 20 bytes to 0x0005 to s
 
 As soon as we hit a score of 5...
 
-![[flag.png.png]]
+![image](flag.png.png)
 
 ## Alternative solution
 
