@@ -11,5 +11,5 @@ Much more to come soon!!
 | --------------- | ------------------------------------------ |
 | LagAndCrash     | [March 2021](LagAndCrash%202021/README.md) |
 | Cyberthon       | [June 2021](Cyberthon%202021/README.md)    |
-| WhiteHacks 2022 | [March 2022](WhiteHacks2022/README%201.md)                                           |
+| WhiteHacks 2022 | [March 2022](WhiteHacks2022/README.md)                                           |
 
