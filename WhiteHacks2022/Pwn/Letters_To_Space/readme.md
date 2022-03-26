@@ -18,6 +18,6 @@ Running a `checksec` on the binary, we can see that all protections are actually
 
 Nevertheless, let's run the binary and see how it works.
 
-<script id="asciicast-AxsL2HenIa2NiFR54Ktbb7tRU" src="https://asciinema.org/a/AxsL2HenIa2NiFR54Ktbb7tRU.js" async></script>
+[![asciicast](https://asciinema.org/a/AxsL2HenIa2NiFR54Ktbb7tRU.svg)](https://asciinema.org/a/AxsL2HenIa2NiFR54Ktbb7tRU)
 
 As you can see from the video above
