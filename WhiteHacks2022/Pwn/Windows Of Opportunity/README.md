@@ -115,14 +115,14 @@ Our first objective will be to take control of our program by gaining EIP contro
 
 We can do this by sending in a [de-bruijin/cyclic](https://en.wikipedia.org/wiki/De_Bruijn_sequence) sequence and let the program crash, then identify the offset to our return address.
 
-This script generates a cyclic sequence of 1000 characters and send it to the vulnerable input.
+This script generates a cyclic sequence of 300 characters and send it to the vulnerable input.
 
 ```py
 from pwn import *
 
 p = process('./window_of_opportunity.exe')
 
-payload = cyclic(1000)
+payload = cyclic(300)
 
 pause()
 
@@ -138,13 +138,13 @@ If we let our windbg run by sending the `g` command a few times (and unpause our
 
 ![image](windbg0.png)
 
-Our program crashes at `0x63616170` which is part of the 1000 character cyclic sequence we sent.
+Our program crashes at `0x63616170` which is part of the 300 character cyclic sequence we sent.
 
 If we search up this unique sequence of bytes in our cyclic structure,
 
 ![image](cyclic0.png)  
 
-we see that the offset to our return address is actually 332.
+we see that the offset to our return address is actually 260.
 
 Just to verify, we will try to send another payload to our program
 
