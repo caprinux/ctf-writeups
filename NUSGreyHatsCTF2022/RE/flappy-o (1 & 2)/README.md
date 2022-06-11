@@ -16,14 +16,14 @@
 
 # INITIAL ANALYSIS
 
-![[flappy1.png]]
-![[flappy2.png]]
+![](flappy1.png)
+![](flappy2.png)
 
 Running the program, we are presented with a flappybird like terminal game. 
 
 Everytime the bird passes through the pipes, the score is incremented by 1 and a letter of the flag (for part 1) is printed.
 
-![[flappy3.png]]
+![](flappy3.png)
 
 From what the challenge description mentions, it seems that the flag for part 1 will be presented when we get a score of at least 64, and the flag for part 2 will be presented at every 10000 points we get in the game.
 
@@ -245,17 +245,17 @@ so that our score will always increase and the game won't end even if we collide
 
 <br>
 
-![[ida1.png]]
+![](ida1.png)
 
 Looking at the binary in IDA, we would want to patch out the jump at 0x252D by writing the bytes at 0x252D from `74 77` to `90 90`.
 
 It would look something like this:
 
-![[ida3.png]]
+![](ida3.png)
 
 Next, we will also nop out the 2 instructions at `0x253A` which is the equivelant to `isOver = 1` which would end the program and jump to the end of the function (prevents our score from being incremented).
 
-![[ida4.png]]
+![](ida4.png)
 
 Lastly we want to patch out the 2 instructions at `0x254C` and `0x254E` to skip the check and just go straight to incrementing our score.
 
@@ -277,13 +277,13 @@ __int64 gameLoop(void)
 
 We will also patch `break` out from `gameLoop` so our program doesn't end.
 
-![[ida5.png]]
+![](ida5.png)
 
 nop these 2 instructions and we are done!
 
 # TESTING OUR PATCHES
 
-![[flappy4.png]]
+![](flappy4.png)
 
 If you try to run the program now, you find that the score increases indefinitely as we would like it to. 
 
@@ -338,7 +338,7 @@ void __noreturn gameLoop(void)
 
 Now if we run the program, we find that we will actually be stuck at the **Get Ready!!!** screen.
 
-![[flappy5.png]]
+![](flappy5.png)
 
 This is because we actually patched out all the functions that draws the screens.
 
@@ -346,7 +346,7 @@ However, fret not! In the background, our score is increasing continuously and o
 
 Let's retrieve it in GDB!
 
-![[flag.png]]
+![](flag.png)
 
 ### FLAG1: grey{y0u_4r3_pr0_4t_7h1s_g4m3_b6d8745a1cc8d51effb86690bf4b27c9}
 ### FLAG2: grey{y0u_4r3_v3ry_g00d_4t_7h1s_g4m3_c4n_y0u_t34ch_m3_h0w_t0_b3_g00d_ef4bd282d7a2ab1ebdcc3616dbe7afb}
